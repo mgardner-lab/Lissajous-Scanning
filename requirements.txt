@@ -1,0 +1,13 @@
+# Tested with Python 3.13.13 on Windows 11 / CUDA 12.4.
+# Lower-bound version pins; newer minor versions should also work.
+
+numpy>=2.0
+pandas>=2.0
+scipy>=1.14
+scikit-learn>=1.5
+
+# For GPU runs, install the CUDA build that matches your driver, e.g.:
+#   pip install torch==2.6.0+cu124 torchvision==0.21.0+cu124 \
+#     --index-url https://download.pytorch.org/whl/cu124
+torch>=2.4
+torchvision>=0.19
