@@ -1,6 +1,6 @@
 # Lissajous-MNIST Code and Results Submission
 
-Reproduction package for the paper *"Reconstruction-Free Object Recognition from Lissajous Sparse Sampling Using Deep Learning"*.
+Reproduction package for the paper *"Rapid Reconstruction-Free Object Recognition from Lissajous Sparse Sampling Using Deep Learning"*.
 
 The project studies a reconstruction-free object-recognition pipeline in which a Lissajous trajectory sparsely scans an MNIST image into a 1D temporal signal. The sampled signal is classified directly using 1D learning models, avoiding the conventional intermediate step of reconstructing the full 2D image before classification.
 
